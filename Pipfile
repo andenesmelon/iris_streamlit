@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+matplotlib = "*"
+streamlit = "*"
+scipy = "*"
+pandas = "*"
+seaborn = "*"
+pillow = "*"
+scikit-learn = "*"
+
+[dev-packages]
+autopep8 = "*"
+flake8 = "*"
+mypy = "*"
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.3"
